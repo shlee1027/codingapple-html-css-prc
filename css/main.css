@@ -27,9 +27,9 @@
   box-shadow: 10px 5px 5px green;
 }
 
-.container {
+/* .container {
   width: 800px;
-}
+} */
 
 .header {
   width: 100%;
@@ -41,7 +41,6 @@
   width: 20%;
   height: 400px;
   background: cornflowerblue;
-  display: inline-block;
   float: left;
 }
 
@@ -50,6 +49,7 @@
   height: 400px;
   background: coral;
   float: left;
+  /* 오른쪽 스타일하는 부분 */
 }
 
 .footer {
@@ -57,4 +57,44 @@
   height: 100px;
   background: grey;
   clear: both;
+}
+
+.container {
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-content {
+  width: 80%;
+  height: 200px;
+  background: #eee;
+  float: left;
+}
+
+.blog-img {
+  width: 20%;
+  height: 200px;
+  background: yellow;
+  float: left;
+}
+
+.blog-profile {
+  width: 50px;
+  display: block;
+  float: left;
+}
+
+.blog-name {
+  float: left;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  font-size: 40px;
+  text-decoration: none;
 }
